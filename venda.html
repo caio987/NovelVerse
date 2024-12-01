@@ -195,34 +195,6 @@
                 }
             }
         });
-
-        function createTable(items) {
-            const table = document.createElement("table");
-
-            const thead = document.createElement("thead");
-            thead.innerHTML = `
-                <tr>
-                    <th>ID</th>
-                    <th>Nome</th>
-                    <th>Imagem</th>
-                </tr>
-            `;
-            table.appendChild(thead);
-
-            const tbody = document.createElement("tbody");
-            items.forEach(item => {
-                const row = document.createElement("tr");
-                row.innerHTML = `
-                    <td>${item.id}</td>
-                    <td>${item.nome}</td>
-                    <td><img src="${item.imagem}" alt="${item.nome}" width="50"></td>
-                `;
-                tbody.appendChild(row);
-            });
-            table.appendChild(tbody);
-
-            return table;
-        }
     </script>
     <script src="script.js"></script>
 </body>
