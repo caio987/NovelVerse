@@ -1,0 +1,1836 @@
+/* Zera a formatação de espaçamento do html */
+* {
+    /* zera a margem */
+    margin: 0px;
+    /* zera o padding(margem interna praticamente) */
+    padding: 0px;
+}
+
+@media only screen and (min-width: 1840px) {
+
+    /* CSS DO BODY */
+    body {
+        margin: 0 auto;
+        min-height: 100vh;
+        background: rgb(8, 1, 41);
+    }
+
+    /* CSS DO HEADER */
+    header {
+        width: 100%;
+        border: solid;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 5px;
+        background-color: #ff9800;
+        box-sizing: border-box;
+        flex-wrap: wrap;
+    }
+
+    header img {
+        height: 90px;
+        border-radius: 10%;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        margin-right: 1vh;
+        /* border: solid; */
+    }
+
+    #toggle-dark-mode {
+        margin-right: 10%;
+        font-size: 2.5em;
+        background-color: #a56506;
+        border-radius: 20%;
+        cursor: pointer;
+    }
+
+    .navCaixa {
+        border: solid;
+        padding: 8px;
+        width: 120px;
+        text-align: center;
+        border-radius: 10px;
+        background-color: #231061;
+        color: white;
+        transition: 0.5s;
+    }
+
+    .navCaixa:hover {
+        background-color: #5b89e6;
+        color: #000000a5;
+    }
+
+    header a {
+        text-decoration: none;
+        /* color: black; */
+    }
+
+    header a:hover {
+        color: white;
+    }
+
+    header img {
+        border-radius: 10%;
+    }
+
+    #entre {
+        margin-right: 5%;
+    }
+
+    #home {
+        margin-right: 5%;
+    }
+
+    /* CSS DO HEADER */
+
+    /* ********************************************************************************* */
+    /* CSS DO MAIN */
+
+    main {
+        /* max-width: 100%; */
+        height: 70vh;
+        max-width: 200vh;
+        /* border: solid red; */
+        margin: 0 auto;
+        background-color: #90a9df;
+    }
+
+    /* CSS DO HOME */
+    /* CSS DO BANNER */
+
+    .slider {
+        max-width: 100%;
+        margin: 0 auto;
+        position: relative;
+        overflow: hidden;
+        background-color: #443b61;
+    }
+
+    .banner {
+        width: 400%;
+        /* height: 400px; */
+        display: flex;
+    }
+
+    .slider img {
+        height: 55vh;
+    }
+
+    .slider input {
+        display: none;
+    }
+
+    .imagensBanner {
+        width: 25%;
+        /* position: relative; */
+        transition: 1.5s;
+    }
+
+    .imagensBanner img {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .navegacaoManual {
+        position: absolute;
+        margin-left: 5%;
+        width: 90%;
+        margin-top: -40px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .botaoManual {
+        border: 2px solid #fff;
+        padding: 7px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: .5s;
+    }
+
+    .botaoManual:not(:last-child) {
+        margin-right: 40px;
+    }
+
+    .botaoManual {
+        background-color: #231061;
+    }
+
+    .botaoManual:hover {
+        background-color: #ff9900;
+    }
+
+    #radio1:checked~.first {
+        margin-left: 0;
+    }
+
+    #radio2:checked~.first {
+        margin-left: -25%;
+    }
+
+    #radio3:checked~.first {
+        margin-left: -50%;
+    }
+
+    /* CSS DO BANNER */
+    /* ********************************************************************************* */
+    /* CSS DOS PRODUTOS */
+    .titulos {
+        display: flex;
+        margin-top: 10px;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .titulo {
+        border: solid;
+        padding: 10px;
+        background-color: #231061;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        color: white;
+        transition: 1s;
+    }
+
+    .titulos a {
+        text-decoration: none;
+    }
+
+    .titulos a :hover {
+        padding: 20px;
+        background-color: #ff9800;
+        transition: 0.5s;
+    }
+
+    .caixaProdutos {
+        margin-top: 5vh;
+    }
+
+    .titulo2 {
+        /* position: relative; */
+        margin-left: 10%;
+        /* margin-top: 5%; */
+        margin-bottom: 5%;
+        border: solid;
+        padding: 10px;
+        font-size: 1em;
+        background-color: #443b61;
+        max-width: 25%;
+        text-align: center;
+        border-radius: 10px;
+        color: white;
+        transition: 1s;
+    }
+
+    .produtos {
+        /* border: solid; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 3vh;
+        height: 360px;
+    }
+
+    .carousel-container {
+        display: flex;
+        max-width: 1400px;
+        height: 380px;
+        align-items: center;
+        justify-content: center;
+        /* margin: auto; */
+        margin-bottom: 6%;
+        overflow: hidden;
+        margin-top: 2vh;
+        /* position: relative; */
+        /* transition: transform 0.5s ease; */
+        /* border: solid; */
+        background-color: #33333388;
+    }
+
+    .carousel-container :hover {
+        transform: scale(1);
+        opacity: 1;
+        transition: 0.5s;
+    }
+
+    .carousel-container a {
+        text-decoration: none;
+        /* border-color: white; */
+        color: white;
+    }
+
+    #novels-container,
+    #novels-container2,
+    #novels-container3,
+    #novels-container4 {
+        display: flex;
+        gap: 16px;
+        height: 400px;
+    }
+
+    .card {
+        background-color: rgba(41, 41, 41, 0.548);
+        transition: 0.5s;
+        border: solid;
+        text-align: center;
+        border-radius: 10px;
+        opacity: 0.;
+        transform: scale(0.9);
+        max-height: 90%;
+        width: 330px;
+    }
+
+    .card img {
+        border-radius: 10px;
+        color: black;
+        border: solid;
+        max-height: 70%;
+        margin-top: 10px;
+    }
+
+    .card h3 {
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 5px;
+        color: rgb(255, 255, 255);
+    }
+
+    #anterior,
+    #anterior2,
+    #anterior3,
+    #anterior4 {
+        cursor: pointer;
+        font-size: 3em;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        color: rgba(255, 255, 255, 0.685);
+        background: none;
+        border: none;
+        height: 4vh;
+        width: 4vh;
+        margin-right: 10px;
+        margin-top: -4%;
+    }
+
+    #proximo,
+    #proximo2,
+    #proximo3,
+    #proximo4 {
+        cursor: pointer;
+        font-size: 3em;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        color: rgba(255, 255, 255, 0.685);
+        background: none;
+        border: none;
+        height: 4vh;
+        width: 4vh;
+        margin-left: 20px;
+        margin-top: -4%;
+    }
+
+    /* CSS DOS PRODUTOS */
+    /* ********************************************************************************* */
+    /* ********************************************************************************* */
+    /* CSS DO HOME */
+
+    /* CSS DO CADASTRO */
+    form {
+        max-width: 40%;
+        /* padding: 10px; */
+        margin: auto auto;
+        text-align: center;
+        /* border: solid; */
+    }
+
+    #logo img {
+        border-radius: 10%;
+        width: 200px;
+    }
+
+    #logo p, #colunaDePerfil #logo p {
+        font-size: 1.2em;
+    }
+    .ladoALado #logo {
+        width: 300px;
+        background-color: #3333338f;
+        color: #fff;
+        border: solid;
+        text-align: center;
+        padding: 20px;
+        margin: 10px;
+        margin-left: 20%;
+    }
+
+    .ladoALado #img {
+        width: 90%;
+        border-radius: 10%;
+    }
+
+    #logo p {
+        margin-top: 10px;
+    }
+
+    #logo a {
+        color: #ffffff;
+        transition: .3s;
+    }
+
+    #logo a:hover {
+        transition: .3s;
+        color: #ff9800;
+        transition: .3s;
+    }
+
+    fieldset {
+        border-radius: 20px;
+        border: solid;
+        color: #fff;
+        width: 40vh;
+        /* height: auto; */
+        background-color: #443b61bb;
+        padding: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* align-items: center; */
+    }
+
+    fieldset h1,
+    h6 {
+        color: white;
+    }
+
+    fieldset a {
+        color: white;
+        font-size: 12px;
+        transition: .5s;
+    }
+
+    fieldset a:hover{
+        color: #a56506;
+        transition: .5s;
+    }
+
+    input {
+        width: 90%;
+        padding: 8px;
+        border-radius: 10px;
+    }
+
+    #cadastroForm,
+    #loginForm {
+        border-radius: 20px;
+        margin: 0 auto;
+        border: solid;
+        color: #fff;
+        /* max-width: 450px; */
+        /* height: auto; */
+        background-color: #443b61;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* align-items: center; */
+    }
+
+    #fotos {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        /* max-width: 100%; */
+    }
+
+    .accordion {
+        background-color: #fff;
+        width: 80%;
+        margin: 0 auto;
+        border-radius: 8px;
+        padding: 12px;
+        cursor: pointer;
+        box-shadow: 5px 5px 5px rgb(0, 0, 0, 1);
+    }
+
+    .accordion-header {
+        /* margin: 0 auto; */
+        width: 100%;
+        border: none;
+        background-color: transparent;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    .accordion-header span {
+        /* width: 100%; */
+        margin-right: 1vh;
+        white-space: nowrap;
+        /* overflow: hidden; */
+        text-overflow: ellipsis;
+    }
+
+    .accordion:has(.active) #seta {
+        transform: rotate(270deg);
+        font-size: 1.5em;
+    }
+
+    #seta {
+        transform: rotate(90deg);
+        font-size: 1.5em;
+        transition: .2s linear;
+    }
+
+    .accordion-body {
+        color: #444;
+        font-size: 14px;
+        padding: 5px 0;
+        opacity: 0;
+        height: 0;
+        /* transition: .2s; */
+        display: none;
+    }
+
+    .accordion-body.active {
+        height: 100%;
+        opacity: 1;
+        display: block;
+        /* transition: .2s; */
+    }
+
+    .opcoesFoto {
+        /* border: solid; */
+        /* max-width: 40%; */
+        /* max-height: 50%; */
+        background-color: bisque;
+    }
+
+    .opcoesFoto img {
+        width: 100px;
+        cursor: pointer;
+        /* height: 50%;  */
+        /* border-radius: 50%;  */
+        transition: .5s;
+    }
+
+    .opcoesFoto img:hover {
+        width: 120px;
+        transition: .5s;
+    }
+
+    #shalltear {
+        height: 100px;
+    }
+
+    #shalltear:hover {
+        height: 120px;
+    }
+
+    fieldset #salvarBtn,
+    #verificarBtn {
+        padding: 8px;
+        width: 100px;
+        height: 40px;
+        margin-left: 35%;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+
+    fieldset #salvarBtn:hover,
+    #verificarBtn:hover {
+        width: 110px;
+        height: 50px;
+        color: white;
+        background-color: rgb(249 115 22);
+        transition: 0.5s;
+    }
+
+    /* CSS DO CADASTRO */
+    /* ********************************************************************************* */
+    /* CSS DO SOBRE NÓS */
+    .ladoALado {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        /* margin: 0 auto; */
+    }
+
+    .ladoALado #imagem {
+        /* margin-top: 5%; */
+        width: 300px;
+        height: 300px;
+        border-radius: 20px;
+    }
+
+    .ladoALado #textos {
+        /* width: 51%; */
+        /* border: solid;    */
+        padding: 10px;
+        background-color: #310f9f88;
+    }
+
+    #textos h1 {
+        text-align: center;
+        color: white;
+    }
+
+    #textos h3 {
+        color: white;
+        margin: 0 auto;
+        max-width: 80%;
+        margin-top: 15px;
+    }
+
+    /* CSS DO SOBRE NÓS */
+    /* ********************************************************************************* */
+    /* CSS DA VENDA DE NOVEL */
+    #venda {
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    #fotoInfo {
+        width: 30vh;
+        height: 30vh;
+        margin-top: 5vh;
+        border-radius: 50%;
+        /* background-color: #4d4d4d; */
+    }
+
+    #fotoInfo img {
+        border-radius: 50%;
+        max-width: 100%;
+        object-fit: contain;
+    }
+
+    #colunaDePerfil {
+        border: solid;
+        width: 30%;
+        background-color: #ff9900;
+        display: flex;
+        margin: 1% 0px;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #colunaDePerfil p {
+        font-size: 1.5em;
+        color: white;
+        margin-top: 3vh;
+    }
+
+    #colunaDePerfil #logo {
+        width: 300px;
+        background-color: #4a3787;
+        color: #fff;
+        border: solid;
+        border-radius: 20%;
+        text-align: center;
+        padding: 10%;
+        margin: 10% auto;
+        /* margin: 10px; */
+        /* margin-left: 20%; */
+    }
+
+    #caixaPerfil {
+        border: solid;
+        background-color: #200a66d6;
+        margin-top: 10%;
+        border-radius: 10%;
+        width: 80%;
+        height: 33%;
+        text-align: center;
+    }
+
+    #caixaVendaNovel {
+        background-color: #33333388;
+        border: solid;
+        margin: 5px auto;
+        width: 69%;
+        margin: 1% 0px;
+    }
+
+    #vendaNovel {
+        padding: 20px;
+        display: flex;
+        /* flex-wrap: wrap; */
+    }
+
+    #capaNovel {
+        /* border: solid; */
+        border-radius: 20px;
+        /* width: 35%; */
+        display: flex;
+        justify-content: center;
+        margin: 1vh 5%;
+    }
+
+    #capaNovel #img {
+        /* border: solid; */
+        border-radius: 20px;
+        width: 30vh;
+        height: 95.3%;
+    }
+
+    #capaNovel img {
+        border-radius: 20px;
+        width: 100%;
+    }
+
+    #informacoesNovel {
+        display: flex;
+        flex-direction: column;
+        /* margin-top: 2%; */
+        width: 65%;
+        padding: 20px;
+        /* border: solid; */
+    }
+
+    #informacoesNovel :not(p) {
+        margin: 0 auto;
+    }
+
+    #informacoesNovel h2 {
+        margin: 10px 0;
+        margin-top: 2.5%;
+        color: white;
+        font-size: 1.5em;
+        /* border: solid; */
+    }
+
+    #informacoesNovel span {
+        font-size: 0.9em;
+        color: rgba(255, 255, 255, 0.877);
+        /* color: rgb(255, 255, 255); */
+        /* border: solid; */
+    }
+
+    #informacoesNovel button {
+        margin-top: 10%;
+        /* margin-left: 35%; */
+        /* width: 25%; */
+        padding: 20px;
+        /* height: 20%; */
+        font-size: 0.9em;
+        border-radius: 5px;
+        background-color: #90a9df;
+        color: white;
+        transition: .5s;
+        cursor: pointer;
+    }
+
+    #informacoesNovel button:hover {
+        padding: 4% 10%;
+        background-color: #ff9800;
+        color: white;
+        /* transition: .5s; */
+        /* width: 30%;
+        height: 15%; */
+    }
+
+    #novelsRelacionadas{
+        background-color: #4a3d75bd;
+    }
+
+    #novelsRelacionadas h2 {
+        border: solid;
+        padding: 10px;
+        margin-top: 1%;
+        margin-left: 1%;
+        background-color: #443b61c9;
+        width: 30%;
+        text-align: center;
+        border-radius: 10px;
+        color: white;
+    }
+
+    #novelsRelacionadas a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .card2 {
+        border: 1px solid black;
+        background-color: rgba(41, 41, 41, 0.548);
+        border-radius: 8px;
+        padding: 20px 30px;
+        width: 25%;
+        text-align: center;
+        box-sizing: border-box;
+        /* margin: 10px; */
+        color: #fff;
+        transform: scale(0.9);
+        transition: 0.5s;
+    }
+
+    .card2:hover {
+        transform: scale(1);
+        transition: 0.5s;
+    }
+
+    .card2 img {
+        height: 70%;
+        width: 100%;
+        border-radius: 8px;
+    }
+
+    .card2 h3 {
+        margin-top: 10%;
+    }
+
+    /* ********************************************************************************* */
+    /* CSS DO MAIN */
+    /* ********************************************************************************* */
+
+    /* CSS DO FOOTER */
+    footer {
+        border: solid;
+        background-color: #ff9800;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        text-align: center;
+    }
+
+    footer h2{
+        padding: 10px;
+    }
+    .footer{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    #redesSociais {
+        margin: 10% 0 0 0;
+        margin-left: 20%;
+    }
+
+    .redesSociais {
+        display: flex;
+        padding: 2.5%;
+        /* margin: 10% 0; */
+        margin-left: 10%;
+        /* width: 100px; */
+    }
+
+    #instagram {
+        width: 32px;
+        height: 32px;
+        margin-top: 10px;
+        margin-right: 5px;
+    }
+
+    #facebook {
+        width: 53px;
+        height: 53px;
+        margin-top: -1px;
+        margin-right: 4px;
+    }
+
+    #linkedin {
+        width: 42px;
+        height: 42px;
+        margin-top: 4px;
+    }
+
+    .contato {
+        text-align: center
+    }
+
+    .gitHub img{
+        margin: 10% 0;
+        width: 63px;
+        height: 63px;
+        cursor: pointer;
+        background-color: gray;
+        border-radius: 50%;
+    }
+
+    .contato, .gitHub {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin: auto 0;
+    }
+
+    .sobreNos {
+        display: flex;
+        bottom: 0 auto;
+        align-items: center;
+        width: 100px;
+    }
+
+    #sobreNos {
+        text-decoration: none;
+        color: black;
+    }
+}
+
+@media only screen and (max-width: 1839px) {
+    
+    /* CSS DO BODY */
+    body {
+        margin: 0 auto;
+        min-height: 100vh;
+        background: rgb(8, 1, 41);
+    }
+
+    /* CSS DO HEADER */
+    header {
+        width: 100%;
+        border: solid;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 5px;
+        background-color: #ff9800;
+        box-sizing: border-box;
+        flex-wrap: wrap;
+    }
+
+    header img {
+        height: 90px;
+        border-radius: 10%;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        margin-right: 1vh;
+        /* border: solid; */
+    }
+
+    #toggle-dark-mode {
+        margin-right: 10%;
+        font-size: 2.5em;
+        background-color: #a56506;
+        border-radius: 20%;
+        cursor: pointer;
+    }
+
+    .navCaixa {
+        border: solid;
+        padding: 8px;
+        width: 120px;
+        text-align: center;
+        border-radius: 10px;
+        background-color: #231061;
+        color: white;
+        transition: 0.5s;
+    }
+
+    .navCaixa:hover {
+        background-color: #5b89e6;
+        color: #000000a5;
+    }
+
+    header a {
+        text-decoration: none;
+        /* color: black; */
+    }
+
+    header a:hover {
+        color: white;
+    }
+
+    header img {
+        border-radius: 10%;
+    }
+
+    #entre {
+        margin-right: 5%;
+    }
+
+    #home {
+        margin-right: 5%;
+    }
+
+    /* CSS DO HEADER */
+
+    /* ********************************************************************************* */
+    /* CSS DO MAIN */
+
+    main {
+        /* max-width: 100%; */
+        /* height: 70vh; */
+        max-width: 200vh;
+        /* border: solid red; */
+        margin: 0 auto;
+        background-color: #90a9df;
+    }
+
+    /* CSS DO HOME */
+    /* CSS DO BANNER */
+
+    .slider {
+        max-width: 100%;
+        margin: 0 auto;
+        position: relative;
+        overflow: hidden;
+        background-color: #443b61;
+    }
+
+    .banner {
+        width: 400%;
+        /* height: 400px; */
+        display: flex;
+    }
+
+    .slider img {
+        height: 55vh;
+    }
+
+    .slider input {
+        display: none;
+    }
+
+    .imagensBanner {
+        width: 25%;
+        /* position: relative; */
+        transition: 1.5s;
+    }
+
+    .imagensBanner img {
+        width: 100%;
+        /* margin-left: 5%; */
+        object-fit: contain;
+    }
+
+    .navegacaoManual {
+        position: absolute;
+        margin-left: 5%;
+        width: 90%;
+        margin-top: -40px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .botaoManual {
+        border: 2px solid #fff;
+        padding: 7px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: .5s;
+    }
+
+    .botaoManual:not(:last-child) {
+        margin-right: 40px;
+    }
+
+    .botaoManual {
+        background-color: #231061;
+    }
+
+    .botaoManual:hover {
+        background-color: #ff9900;
+    }
+
+    #radio1:checked~.first {
+        margin-left: 0;
+    }
+
+    #radio2:checked~.first {
+        margin-left: -25%;
+    }
+
+    #radio3:checked~.first {
+        margin-left: -50%;
+    }
+
+    /* CSS DO BANNER */
+    /* ********************************************************************************* */
+    /* CSS DOS PRODUTOS */
+    .titulos {
+        display: flex;
+        margin-top: 10px;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .titulo {
+        border: solid;
+        padding: 10px;
+        background-color: #231061;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        color: white;
+        transition: 1s;
+    }
+
+    .titulos a {
+        text-decoration: none;
+    }
+
+    .titulos a :hover {
+        padding: 20px;
+        background-color: #ff9800;
+        transition: 0.5s;
+    }
+
+    .caixaProdutos {
+        margin-top: 5vh;
+    }
+
+    .titulo2 {
+        /* position: relative; */
+        margin-left: 10%;
+        /* margin-top: 5%; */
+        margin-bottom: 5%;
+        border: solid;
+        padding: 10px;
+        font-size: 1em;
+        background-color: #443b61;
+        max-width: 25%;
+        text-align: center;
+        border-radius: 10px;
+        color: white;
+        transition: 1s;
+    }
+
+    .produtos {
+        /* border: solid; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 3vh;
+        height: 360px;
+    }
+
+    .carousel-container {
+        display: flex;
+        max-width: 1400px;
+        height: 380px;
+        align-items: center;
+        justify-content: center;
+        /* margin: auto; */
+        margin-bottom: 6%;
+        overflow: hidden;
+        margin-top: 2vh;
+        /* position: relative; */
+        /* transition: transform 0.5s ease; */
+        /* border: solid; */
+        background-color: #33333388;
+    }
+
+    .carousel-container :hover {
+        transform: scale(1);
+        opacity: 1;
+        transition: 0.5s;
+    }
+
+    .carousel-container a {
+        text-decoration: none;
+        /* border-color: white; */
+        color: white;
+    }
+
+    #novels-container,
+    #novels-container2,
+    #novels-container3,
+    #novels-container4 {
+        display: flex;
+        gap: 16px;
+        height: 400px;
+    }
+
+    .card {
+        background-color: rgba(41, 41, 41, 0.548);
+        transition: 0.5s;
+        border: solid;
+        text-align: center;
+        border-radius: 10px;
+        opacity: 0.;
+        transform: scale(0.9);
+        max-height: 90%;
+        width: 330px;
+    }
+
+    .card img {
+        border-radius: 10px;
+        color: black;
+        border: solid;
+        max-height: 70%;
+        margin-top: 10px;
+    }
+
+    .card h3 {
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 5px;
+        color: rgb(255, 255, 255);
+    }
+
+    #anterior,
+    #anterior2,
+    #anterior3,
+    #anterior4 {
+        cursor: pointer;
+        font-size: 3em;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        color: rgba(255, 255, 255, 0.685);
+        background: none;
+        border: none;
+        height: 4vh;
+        width: 4vh;
+        margin-right: 10px;
+        margin-top: -4%;
+    }
+
+    #proximo,
+    #proximo2,
+    #proximo3,
+    #proximo4 {
+        cursor: pointer;
+        font-size: 3em;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        color: rgba(255, 255, 255, 0.685);
+        background: none;
+        border: none;
+        height: 4vh;
+        width: 4vh;
+        margin-left: 20px;
+        margin-top: -4%;
+    }
+
+    /* CSS DOS PRODUTOS */
+    /* ********************************************************************************* */
+    /* ********************************************************************************* */
+    /* CSS DO HOME */
+
+    /* CSS DO CADASTRO */
+    form {
+        max-width: 40%;
+        padding: 10px;
+        /* margin: auto auto; */
+        
+        text-align: center;
+        /* border: solid; */
+    }
+
+    #logo img {
+        border-radius: 10%;
+        width: 200px;
+    }
+
+    #logo p, #colunaDePerfil #logo p {
+        font-size: 1.2em;
+    }
+    .ladoALado #logo {
+        width: 300px;
+        background-color: #3333338f;
+        color: #fff;
+        border: solid;
+        text-align: center;
+        padding: 20px;
+        /* margin: 10px; */
+        /* margin-left: 20%; */
+    }
+
+    .ladoALado #img {
+        width: 90%;
+        border-radius: 10%;
+    }
+
+    #logo p {
+        margin-top: 10px;
+    }
+
+    #logo a {
+        color: #ffffff;
+        transition: .3s;
+    }
+
+    #logo a:hover {
+        transition: .3s;
+        color: #ff9800;
+        transition: .3s;
+    }
+
+    fieldset {
+        border-radius: 20px;
+        border: solid;
+        color: #fff;
+        width: 40vh;
+        /* height: auto; */
+        background-color: #443b61bb;
+        padding: 60px;
+        display: flex;
+        flex-direction: column;
+        /* margin: 0 auto; */
+        /* justify-content: center; */
+        /* align-items: center; */
+    }
+
+    fieldset h1,
+    h6 {
+        color: white;
+    }
+
+    fieldset a {
+        color: white;
+        font-size: 12px;
+        transition: .5s;
+    }
+
+    fieldset a:hover{
+        color: #a56506;
+        transition: .5s;
+    }
+
+    input {
+        width: 90%;
+        padding: 8px;
+        border-radius: 10px;
+    }
+
+    #cadastroForm,
+    #loginForm {
+        border-radius: 20px;
+        margin: 0 auto;
+        border: solid;
+        color: #fff;
+        max-width: 450px;
+        /* height: auto; */
+        background-color: #443b61;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #fotos {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        /* max-width: 100%; */
+    }
+
+    .accordion {
+        background-color: #fff;
+        width: 80%;
+        margin: 0 auto;
+        border-radius: 8px;
+        padding: 12px;
+        cursor: pointer;
+        box-shadow: 5px 5px 5px rgb(0, 0, 0, 1);
+    }
+
+    .accordion-header {
+        /* margin: 0 auto; */
+        width: 100%;
+        border: none;
+        background-color: transparent;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    .accordion-header span {
+        /* width: 100%; */
+        margin-right: 1vh;
+        white-space: nowrap;
+        /* overflow: hidden; */
+        text-overflow: ellipsis;
+    }
+
+    .accordion:has(.active) #seta {
+        transform: rotate(270deg);
+        font-size: 1.5em;
+    }
+
+    #seta {
+        transform: rotate(90deg);
+        font-size: 1.5em;
+        transition: .2s linear;
+    }
+
+    .accordion-body {
+        color: #444;
+        font-size: 14px;
+        padding: 5px 0;
+        opacity: 0;
+        height: 0;
+        /* transition: .2s; */
+        display: none;
+    }
+
+    .accordion-body.active {
+        height: 100%;
+        opacity: 1;
+        display: block;
+        /* transition: .2s; */
+    }
+
+    .opcoesFoto {
+        /* border: solid; */
+        /* max-width: 40%; */
+        /* max-height: 50%; */
+        background-color: bisque;
+    }
+
+    .opcoesFoto img {
+        width: 100px;
+        cursor: pointer;
+        /* height: 50%;  */
+        /* border-radius: 50%;  */
+        transition: .5s;
+    }
+
+    .opcoesFoto img:hover {
+        width: 120px;
+        transition: .5s;
+    }
+
+    #shalltear {
+        height: 100px;
+    }
+
+    #shalltear:hover {
+        height: 120px;
+    }
+
+    fieldset #salvarBtn,
+    #verificarBtn {
+        padding: 8px;
+        width: 100px;
+        height: 40px;
+        margin-left: 35%;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+
+    fieldset #salvarBtn:hover,
+    #verificarBtn:hover {
+        width: 110px;
+        height: 50px;
+        color: white;
+        background-color: rgb(249 115 22);
+        transition: 0.5s;
+    }
+
+    /* CSS DO CADASTRO */
+    /* ********************************************************************************* */
+    /* CSS DO SOBRE NÓS */
+    .ladoALado {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        /* margin: 0 auto; */
+    }
+
+    /* .ladoALado .metade{
+    width: 50%;
+    border: solid;
+    margin-right: 0.25%;
+    } */
+    .ladoALado #imagem {
+        /* margin-top: 5%; */
+        width: 300px;
+        height: 300px;
+        border-radius: 20px;
+    }
+
+    .ladoALado #textos {
+        /* width: 51%; */
+        /* border: solid;*/
+        margin-top: 1%;
+        padding: 10px;
+        background-color: #310f9f88;
+    }
+
+    #textos h1 {
+        text-align: center;
+        color: white;
+    }
+
+    #textos h3 {
+        color: white;
+        margin: 0 auto;
+        max-width: 80%;
+        margin-top: 15px;
+    }
+
+    /* CSS DO SOBRE NÓS */
+    /* ********************************************************************************* */
+    /* CSS DA VENDA DE NOVEL */
+    #venda {
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    #fotoInfo {
+        width: 30vh;
+        height: 30vh;
+        /* margin-top: 5vh; */
+        border-radius: 50%;
+        /* object-fit: contain; */
+        /* background-color: #4d4d4d; */
+    }
+
+    #fotoInfo img {
+        border-radius: 50%;
+        max-width: 100%;
+        object-fit: contain;
+    }
+
+    #colunaDePerfil {
+        border: solid;
+        width: 100%;
+        padding: 20px;
+        background-color: #ff9900;
+        display: flex;
+        margin: 1% 0 0 0;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    
+    #colunaDePerfil p {
+        font-size: 1.5em;
+        color: white;
+        margin-top: 3vh;
+    }
+
+    #colunaDePerfil #logo {
+        /* width: 300px; */
+        background-color: #4a3787;
+        /* color: #fff; */
+        border: solid;
+        border-radius: 20%;
+        text-align: center;
+        padding: 3%;
+        /* margin: 1% auto; */
+        /* margin: 10px; */
+        /* margin-left: 20%; */
+        margin: 1% 0;
+    }
+
+    #caixaPerfil {
+        border: solid;
+        background-color: #200a66d6;
+        padding: 5px;
+        border-radius: 10%;
+        width: 50%;
+        /* height: 50%; */
+        text-align: center;
+    }
+
+    #caixaVendaNovel {
+        background-color: #33333388;
+        border: solid;
+        /* margin: 5px auto; */
+        /* width: 100%; */
+        margin: 1% 0px;
+    }
+
+    #vendaNovel {
+        /* background-color: #473388cd; */
+        padding: 20px;
+        display: flex;
+        /* flex-wrap: wrap; */
+    }
+
+    #capaNovel {
+        /* border: solid; */
+        border-radius: 20px;
+        /* width: 35%; */
+        display: flex;
+        justify-content: center;
+        margin: 1vh 5%;
+    }
+
+    #capaNovel #img {
+        /* border: solid; */
+        border-radius: 20px;
+        width: 30vh;
+        height: 95.3%;
+    }
+
+    #capaNovel img {
+        border-radius: 20px;
+        width: 100%;
+    }
+
+    #informacoesNovel {
+        display: flex;
+        flex-direction: column;
+        /* margin-top: 2%; */
+        width: 65%;
+        padding: 20px;
+        /* border: solid; */
+    }
+
+    #informacoesNovel :not(p) {
+        margin: 0 auto;
+    }
+
+    #informacoesNovel h2 {
+        margin: 10px 0;
+        margin-top: 2.5%;
+        color: white;
+        font-size: 1.5em;
+        /* border: solid; */
+    }
+
+    #informacoesNovel span {
+        font-size: 0.9em;
+        color: rgba(255, 255, 255, 0.877);
+        /* color: rgb(255, 255, 255); */
+        /* border: solid; */
+    }
+
+    #informacoesNovel button {
+        margin-top: 10%;
+        /* margin-left: 35%; */
+        /* width: 25%; */
+        padding: 20px;
+        color: white;
+        background-color: #90a9dfc8;
+        /* height: 20%; */
+        font-size: 0.9em;
+        border-radius: 5px;
+        transition: .5s;
+        cursor: pointer;
+    }
+
+    #informacoesNovel button:hover {
+        padding: 25px 60px;
+        background-color: #ff9800;
+        color: white;
+        /* transition: .5s; */
+        /* width: 30%;
+        height: 15%; */
+    }
+
+    #novelsRelacionadas{
+        background-color: #4a3d75bd;
+    }
+
+    #novelsRelacionadas h2 {
+        border: solid;
+        padding: 10px;
+        margin-top: 1%;
+        margin-left: 1%;
+        background-color: #443b61c9;
+        width: 30%;
+        text-align: center;
+        border-radius: 10px;
+        color: white;
+    }
+
+    #novelsRelacionadas a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .card2 {
+        border: 1px solid black;
+        background-color: rgba(41, 41, 41, 0.548);
+        border-radius: 8px;
+        padding: 20px 30px;
+        width: 250px;
+        text-align: center;
+        box-sizing: border-box;
+        /* margin: 10px; */
+        color: #fff;
+        transform: scale(0.9);
+        transition: 0.5s;
+    }
+
+    .card2:hover {
+        transform: scale(1);
+        transition: 0.5s;
+    }
+
+    .card2 img {
+        height: 70%;
+        width: 100%;
+        border-radius: 8px;
+    }
+
+    .card2 h3 {
+        margin-top: 10%;
+    }
+
+    /* ********************************************************************************* */
+    /* CSS DO MAIN */
+    /* ********************************************************************************* */
+
+    /* CSS DO FOOTER */
+    footer {
+        border: solid;
+        background-color: #ff9800;
+        /* position: fixed;
+        width: 100%;
+        bottom: 0; */
+        text-align: center;
+    }
+
+    footer h2{
+        padding: 10px;
+    }
+    .footer{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    #redesSociais {
+        margin: 10% 0 0 0;
+        margin-left: 20%;
+    }
+
+    .redesSociais {
+        display: flex;
+        padding: 2.5%;
+        /* margin: 10% 0; */
+        margin-left: 10%;
+        /* width: 100px; */
+    }
+
+    #instagram {
+        width: 32px;
+        height: 32px;
+        margin-top: 10px;
+        margin-right: 5px;
+    }
+
+    #facebook {
+        width: 53px;
+        height: 53px;
+        margin-top: -1px;
+        margin-right: 4px;
+    }
+
+    #linkedin {
+        width: 42px;
+        height: 42px;
+        margin-top: 4px;
+    }
+
+    .contato {
+        text-align: center
+    }
+
+    .gitHub img{
+        margin: 10% 0;
+        width: 63px;
+        height: 63px;
+        cursor: pointer;
+        background-color: gray;
+        border-radius: 50%;
+    }
+
+    .contato, .gitHub {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin: auto 0;
+    }
+
+    .sobreNos {
+        display: flex;
+        bottom: 0 auto;
+        align-items: center;
+        width: 100px;
+    }
+
+    #sobreNos {
+        text-decoration: none;
+        color: black;
+    }
+}
+
+/* ********************************************************************************* */
+/* CSS DO DARK MODE  */
+.trilho.dark {
+    background-color: #c3c3c3;
+}
+
+.trilho.dark .indicador {
+    left: 55%;
+    background-color: #fff;
+}
+
+.titulos h2.dark,
+label.dark {
+    background-color: #4a3d75d5;
+}
+
+header div.dark,
+div #caixaPerfil.dark {
+    background-color: #4a3d75;
+}
+
+header div.dark:hover {
+    background-color: #7863bee8;
+    color: rgb(255, 255, 255);
+}
+
+header.dark,
+footer.dark,
+.titulos h2.dark:hover,
+.botaoManual.dark:hover {
+    background-color: #ec4f05c2;
+}
+
+main button.dark {
+    background-color: #e9bfabc2;
+}
+
+main.dark {
+    background-color: rgba(17, 22, 46, 0.527);
+}
+
+.carousel-container.dark {
+    background-color: #555d8893;
+}
+
+div#colunaDePerfil.dark {
+    background-color: #ec4f05c2;
+}
+
+/* body.dark-mode {
+    background-color: #ffffff;
+    color: #000000;
+    }
+    
+    body {
+        background-color: #121212;
+        color: #ffffff;
+}
+   */

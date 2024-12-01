@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        main {
+            padding: 5% 0 1% 0;
+            /* height: 70vh; */
+        }
+
+        #textos {
+            max-width: 50%;
+        }
+
+        #logo {
+            max-width: 50%;
+        }
+
+        .ladoALado {
+            background-color: #231061ac;
+            width: 80%;
+            margin: 0 auto;
+            padding: 3%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="logo.png">
+        <nav>
+            <button onclick="window.location.reload();" id="toggle-dark-mode"></button>
+            <a href="index.html" id="home">
+                <div class="navCaixa">
+                    <h3> HOME <h3>
+                </div>
+            </a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="ladoALado">
+            <!-- <div class="metade"> -->
+            <div id="logo">
+                <img src="logo.png" id="imagem">
+                <p>Gostou da nossa empresa? <br><a href="cadastro.html">Clique aqui</a> para se cadastrar</p>
+            </div>
+            <!-- </div> -->
+            <div id="textos">
+                <h1>SOBRE NÓS</h1>
+                <h3>- NovelVerse é uma empresa brasileira especializada na venda de light novels, trazendo o melhor da
+                    literatura.
+                    <h1>O que oferecemos?</h1>
+                    <h3><strong>- Catálogo diversificado:</strong> Trabalhamos com light novels em português, inglês e até
+                        mesmo versões originais em japonês. <br><br>
+                        - Exclusivos de colecionador: Edições limitadas e box sets para os fãs mais dedicados. <br><br>
+                        - Recomendações personalizadas: Um sistema inteligente sugere novos títulos com base nas suas
+                        preferências. <br><br>
+                        - Comunidade ativa: Nosso blog e fóruns permitem que leitores compartilhem resenhas, teorias e
+                        muito mais. <br><br>
+                        Entrega rápida e segura: Enviamos para todo o Brasil com opções de frete expresso. </h3>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div>
+                <h3 id="redesSociais"> Redes Sociais </h3>
+                <div class="redesSociais">
+                    <img src="Sociais/Instagram_icon.png.webp" alt="" id="instagram">
+                    <img src="Sociais/facebook-logo-facebook-icon-transparent-free-png.webp" alt="" id="facebook">
+                    <img src="Sociais/linkedin.png" alt="" id="linkedin">
+                </div>
+            </div>
+            <div class="contato">
+                <h3> Contato </h3>
+                <p id="contato"> (+55) 1234-5678</p>
+            </div>
+            <div class="gitHub">
+                <a href="https://github.com/caio987" target="_blank"><img src="Sociais/gitHub.png" alt=""></a>
+                <h3> GitHub</h3>
+            </div>
+            <div class="sobreNos">
+                <a href="sobreNos.html" id="sobreNos">
+                    <h3> Sobre nós </h3>
+                </a>
+            </div>
+        </div>
+        <hr>
+        <h2>Todos os direitos reservados a Caio André</h2>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

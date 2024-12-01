@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> HOME </title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        footer {
+            width: 99.4%;
+            position: static;
+        }
+        main{
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="logo.png">
+        <nav>
+            <button onclick="window.location.reload();" id="toggle-dark-mode"></button>   
+            <a href="entrar.html" id="entre">
+                <div class="navCaixa">
+                    <h3> Entre </h3>
+                </div>
+            </a>
+            <a href="cadastro.html">
+                <div class="navCaixa">
+                    <h3> Cadastre-se <h3>
+                </div>
+            </a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="slider">
+            <div class="banner">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+
+                <div class="imagensBanner first">
+                    <img src="banner.jpg" alt="">
+                </div>
+                <div class="imagensBanner">
+                    <img src="banner2.webp" alt="">
+                </div>
+                <div class="imagensBanner">
+                    <img src="banner3.webp" alt="">
+                </div>
+            </div>
+
+            <div class="navegacaoManual">
+                <label for="radio1" class="botaoManual"></label>
+                <label for="radio2" class="botaoManual"></label>
+                <label for="radio3" class="botaoManual"></label>
+            </div>
+        </div>
+        <!-- Fim dos botões manuais -->
+
+        <!-- Produtos -->
+        <div class="titulos">
+            <a href="#populares">
+                <h2 class="titulo"> NOVELS MAIS POPULARES </h2>
+            </a>
+            <a href="#promocoes">
+                <h2 class="titulo"> NOVELS EM PROMOÇÃO </h2>
+            </a>
+            <a href="#lancamentos">
+                <h2 class="titulo"> NOVELS RECÉM LANÇADAS </h2>
+            </a>
+            <a href="#portugues">
+                <h2 class="titulo"> NOVELS EM PORTUGUÊS </h2>
+            </a>
+        </div>
+        <div class="caixaProdutos">
+            <h2 class="titulo2" id="populares">NOVELS MAIS POPULARES</h2>
+            <div class="produtos">
+                <button id="anterior">◀</button>
+                <div class="carousel-container" id="carousel-container">
+                    <div class="carousel" id="novels-container"></div>
+                </div>
+                <button id="proximo">▶</button>
+            </div>
+        </div>
+        <div class="caixaProdutos">
+            <h2 class="titulo2" id="lancamentos">ÚLTIMOS LANÇAMENTOS</h2>
+            <div class="produtos">
+                <button id="anterior2">◀ </button>
+                <div class="carousel-container" id="carousel-container">
+                    <div class="carousel" id="novels-container2"></div>
+                </div>
+                <button id="proximo2">▶</button>
+            </div>
+        </div>
+        <div class="caixaProdutos">
+            <h2 class="titulo2" id="portugues">NOVELS EM PORTUGUÊS</h2>
+            <div class="produtos">
+                <button id="anterior3">◀</button>
+                <div class="carousel-container" id="carousel-container">
+                    <div class="carousel" id="novels-container3"></div>
+                </div>
+                <button id="proximo3">▶</button>
+            </div>
+        </div>
+        <div class="caixaProdutos">
+            <h2 class="titulo2" id="promocoes">NOVELS EM PROMOÇÃO</h2>
+            <div class="produtos">
+                <button id="anterior4">◀</button>
+                <div class="carousel-container" id="carousel-container">
+                    <div class="carousel" id="novels-container4"></div>
+                </div>
+                <button id="proximo4">▶</button>
+            </div>
+        </div>
+        <!-- <br><br> -->
+        <!-- Fim dos produtos -->
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div>
+                <h3 id="redesSociais"> Redes Sociais </h3>
+                <div class="redesSociais">
+                    <img src="/redesSociais/Instagram_icon.png.webp" alt="" id="instagram">
+                    <img src="/redesSociais/facebook-logo-facebook-icon-transparent-free-png.webp" alt="" id="facebook">
+                    <img src="/redesSociais/linkedin.png" alt="" id="linkedin">
+                </div>
+            </div>
+            <div class="contato">
+                <h3> Contato </h3>
+                <p id="contato"> (+55) 1234-5678</p>
+            </div>
+            <div class="gitHub">
+                <a href="https://github.com/caio987" target="_blank"><img src="/redesSociais/gitHub.png" alt=""></a>
+                <h3> GitHub</h3>
+            </div>
+            <div class="sobreNos">
+                <a href="sobreNos.html" id="sobreNos">
+                    <h3> Sobre nós </h3>
+                </a>
+            </div>
+        </div>
+        <hr>
+        <h2>Todos os direitos reservados a Caio André</h2>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,455 @@
+{
+    "lancamentos": [
+        {
+
+            "id":1,
+            "nome": "Lycoris Recoil: Ordinary Days Volume 1",
+            "imagem": "lycoris.jpg"
+        },
+        {
+
+            "id":2,
+            "nome": "BLADE & BASTARD: Return of The Hrathnir Volume 3",
+            "imagem": "blade&Bastard.jpg"
+        },
+        {
+
+            "id":3,
+            "nome": "The Kept Man of the Princess Knight Volume 1",
+            "imagem": "keptManAndPrincess.jpg"
+        },
+        {
+
+            "id":4,
+            "nome": "The Unimplemented Overlords Have Joined the Party! Volume 1",
+            "imagem": "overlordsParty.jpg"
+        },
+        {
+
+            "id":5,
+            "nome": "Astrea Record/Tales of Heroes Volume 1",
+            "imagem": "danmachiElfa.jpg"
+        },
+        {
+
+            "id":6,
+            "nome": "Miss Savage Fang Volume 1",
+            "imagem": "missSavage.jpg"
+        },
+        {
+
+            "id":7,
+            "nome": "Magic Stone Gourmet: Eating Magical Power Made Me the Strongest Volume 4",
+            "imagem": "magicStoneGourmet.jpg"
+        }
+    ],
+    "portugues": [
+        {
+
+            "id":8,
+            "nome": "Solo Leveling, Volume 01",
+            "imagem": "soloLeveling.jpg"
+        },
+        {
+
+            "id":9,
+            "nome": "Reincarnated as a Sword Volume 1",
+            "imagem": "tenseiShitaraKen.jpg"
+        },
+        {
+
+            "id":10,
+            "nome": "86 (EIGHTY-SIX), Volume 1",
+            "imagem": "86.jpg"
+        },
+        {
+
+            "id":11,
+            "nome": "Arifureta: From Commonplace to World's Strongest Volume 2",
+            "imagem": "arifureta.jpg"
+        },
+        {
+
+            "id":12,
+            "nome": "Mushoku Tensei: Jobless Reincarnation Volume 1",
+            "imagem": "mushoku.jpg"
+        },
+        {
+
+            "id":13,
+            "nome": "Ascendance of a Bookworm: Part 1 Volume 1",
+            "imagem": "isekaiBibliotecaria.jpg"
+        },
+        {
+
+            "id":14,
+            "nome": "Goblin Slayer Volume 1",
+            "imagem": "goblinSlayer.jpg"
+        },
+        {
+
+            "id":15,
+            "nome": "Rakudai kishi no cavalry Volume 1",
+            "imagem": "rakudaiKishi.webp"
+        }
+    ],
+    "populares": [
+        {
+
+            "id":16,
+            "nome": "Alya Sometimes Hides Her Feelings In Russian Volume 1",
+            "imagem": "allya.webp"
+        },
+        {
+
+            "id":17,
+            "nome": "Sword Art Online Volume 1",
+            "imagem": "sao.jpg"
+        },
+        {
+
+            "id":18,
+            "nome": "Re:Zero - Starting Life in Another World Volume 1",
+            "imagem": "reZero.jpg"
+        },
+        {
+
+            "id":19,
+            "nome": "No Game No Life Volume 5",
+            "imagem": "noGameNoLife.jpg"
+        },
+        {
+
+            "id":20,
+            "nome": "The Rising of the Shield Hero Volume 1",
+            "imagem": "ShieldHero.jpg"
+        },
+        {
+
+            "id":21,
+            "nome": "Overlord Volume 1",
+            "imagem": "overlord.jpg"
+        },
+        {
+
+            "id":22,
+            "nome": "Konosuba: God's Blessing on This Wonderful World! Volume 1",
+            "imagem": "konosuba.jpg"
+        },
+        {
+
+            "id":23,
+            "nome": "Danmachi: Is It Wrong to Try to Pick Up Girls in a Dungeon? Volume 1",
+            "imagem": "danmachi.jpg"
+        }
+    ],
+    "promocoes": [
+        {
+            "id":24,
+            "nome": "The Eminence in Shadow Volume 1",
+            "imagem": "eminenceShadow.jpg"
+        },
+        {
+            "id":25,
+            "nome": "The Devil Is a Part-Timer Volume 1",
+            "imagem": "maouMcDonalds.jpg"
+        },
+        {
+            "id":26,
+            "nome": "The Irregular at Magic High School Volume 1",
+            "imagem": "mahouka.jpg"
+        },
+        {
+            "id":27,
+            "nome": "The Apothecary Diaries: Volume 3",
+            "imagem": "diarioDeUmaApotecaria.jpg"
+        },
+        {
+            "id":28,
+            "nome": "Heaven Official's Blessing: Tian Guan CI Fu Volume 1",
+            "imagem": "tianGuanCiFu.jpg"
+        },
+        {
+            "id":29,
+            "nome": "Why Raeliana Ended Up at the Duke's Mansion Volume 1",
+            "imagem": "dukeMansion.jpg"
+        },
+        {
+            "id":30,
+            "nome": "Spice & Wolf Volume 1",
+            "imagem": "spiceAndWolf.jpg"
+        }
+    ],
+    "informacoes": [
+        {
+            "Id": "1",
+            "nome": "Lycoris Recoil: Ordinary Days Volume 1",
+            "preco": "R$ 120,00",
+            "idiomas": "Inglês e Japonês",
+            "autor": "Asaura",
+            "nota": "✭✭✭✭✭",
+            "imagem": "lycoris.jpg"
+        },
+        {
+            "Id": "2",
+            "nome": "BLADE & BASTARD: Return of The Hrathnir Volume 3",
+            "preco": "R$ 130,00",
+            "idiomas": "Inglês",
+            "autor": "Kaoru Shinozaki",
+            "nota": "✭✭✭✭☆",
+            "imagem": "blade&Bastard.jpg"
+        },
+        {
+            "Id": "3",
+            "nome": "The Kept Man of the Princess Knight Volume 1",
+            "preco": "R$ 115,00",
+            "idiomas": "Inglês e Japonês",
+            "autor": "Tsubakuro",
+            "nota": "✭✭✭✭☆",
+            "imagem": "keptManAndPrincess.jpg"
+        },
+        {
+            "Id": "4",
+            "nome": "The Unimplemented Overlords Have Joined the Party! Volume 1",
+            "preco": "R$ 125,00",
+            "idiomas": "Inglês",
+            "autor": "Jougi Shiraishi",
+            "nota": "✭✭✭☆",
+            "imagem": "overlordsParty.jpg"
+        },
+        {
+            "Id": "5",
+            "nome": "Astrea Record/Tales of Heroes Volume 1",
+            "preco": "R$ 135,00",
+            "idiomas": "Inglês e Japonês",
+            "autor": "Fujino Omori",
+            "nota": "✭✭✭✭✭",
+            "imagem": "danmachiElfa.jpg"
+        },
+        {
+            "Id": "6",
+            "nome": "Miss Savage Fang Volume 1",
+            "preco": "R$ 110,00",
+            "idiomas": "Inglês",
+            "autor": "Wataru Watari",
+            "nota": "✭✭✭✭☆",
+            "imagem": "missSavage.jpg"
+        },
+        {
+            "Id": "7",
+            "nome": "Magic Stone Gourmet: Eating Magical Power Made Me the Strongest Volume 4",
+            "preco": "R$ 140,00",
+            "idiomas": "Inglês e Japonês",
+            "autor": "Nagaharu Hibihana",
+            "nota": "✭✭✭✭☆",
+            "imagem": "magicStoneGourmet.jpg"
+        },
+        {
+            "Id": "8",
+            "nome": "Solo Leveling, Volume 01",
+            "preco": "R$ 150,00",
+            "idiomas": "Português e Coreano",
+            "autor": "Chugong",
+            "nota": "✭✭✭✭✭",
+            "imagem": "soloLeveling.jpg"
+        },
+        {
+            "Id": "9",
+            "nome": "Reincarnated as a Sword Volume 1",
+            "preco": "R$ 125,00",
+            "idiomas": "Português e Inglês",
+            "autor": "Yuu Tanaka",
+            "nota": "✭✭✭✭☆",
+            "imagem": "tenseiShitaraKen.jpg"
+        },
+        {
+            "Id": "10",
+            "nome": "86 (EIGHTY-SIX), Volume 1",
+            "preco": "R$ 140,00",
+            "idiomas": "Português e Inglês",
+            "autor": "Asato Asato",
+            "nota": "✭✭✭✭✭",
+            "imagem": "86.jpg"
+        },
+        {
+            "Id": "11",
+            "nome": "Arifureta: From Commonplace to World's Strongest Volume 2",
+            "preco": "R$ 135,00",
+            "idiomas": "Português e Inglês",
+            "autor": "Ryo Shirakome",
+            "nota": "✭✭✭✭☆",
+            "imagem": "arifureta.jpg"
+        },
+        {
+            "Id": "12",
+            "nome": "Mushoku Tensei: Jobless Reincarnation Volume 1",
+            "preco": "R$ 145,00",
+            "idiomas": "Português e Inglês",
+            "autor": "Rifujin na Magonote",
+            "nota": "✭✭✭✭✭",
+            "imagem": "mushoku.jpg"
+        },
+        {
+            "Id": "13",
+            "nome": "Ascendance of a Bookworm: Part 1 Volume 1",
+            "preco": "R$ 130,00",
+            "idiomas": "Português e Inglês",
+            "autor": "Miya Kazuki",
+            "nota": "✭✭✭✭☆",
+            "imagem": "isekaiBibliotecaria.jpg"
+        },
+        {
+            "Id": "14",
+            "nome": "Goblin Slayer Volume 1",
+            "preco": "R$ 115,00",
+            "idiomas": "Português e Inglês",
+            "autor": "Kumo Kagyu",
+            "nota": "✭✭✭✭☆",
+            "imagem": "goblinSlayer.jpg"
+        },
+        {
+            "Id": "15",
+            "nome": "Rakudai kishi no cavalry Volume 1",
+            "preco": "R$ 140,00",
+            "idiomas": "Português e Inglês",
+            "autor": "Riku Misora",
+            "nota": "✭✭✭✭☆",
+            "imagem": "rakudaiKishi.webp"
+        },
+        {
+            "Id": "16",
+            "nome": "Alya Sometimes Hides Her Feelings In Russian Volume 1",
+            "preco": "R$ 145,00",
+            "idiomas": "Português, inglês e Russo",
+            "autor": "SunSunSun",
+            "nota": "✭✭✭✭☆",
+            "imagem": "allya.webp"
+        },
+        {
+            "Id": "17",
+            "nome": "Sword Art Online Volume 1",
+            "preco": "R$ 110,00",
+            "idiomas": "Português e Japonês",
+            "autor": "Reki Kawahara",
+            "nota": "✭✭✭✭✭",
+            "imagem": "sao.jpg"
+        },
+        {
+            "Id": "18",
+            "nome": "Re:Zero - Starting Life in Another World Volume 1",
+            "preco": "R$ 125,00",
+            "idiomas": "Português e Japonês",
+            "autor": "Tappei Nagatsuki",
+            "nota": "✭✭✭✭☆",
+            "imagem": "reZero.jpg"
+        },
+        {
+            "Id": "19",
+            "nome": "No Game No Life Volume 5",
+            "preco": "R$ 120,00",
+            "idiomas": "Português e Japonês",
+            "autor": "Yuu Kamiya",
+            "nota": "✭✭✭✭☆",
+            "imagem": "noGameNoLife.jpg"
+        },
+        {
+            "Id": "20",
+            "nome": "The Rising of the Shield Hero Volume 1",
+            "preco": "R$ 130,00",
+            "idiomas": "Português e Japonês",
+            "autor": "Aneko Yusagi",
+            "nota": "✭✭✭✭✭",
+            "imagem": "ShieldHero.jpg"
+        },
+        {
+            "Id": "21",
+            "nome": "Overlord Volume 1",
+            "preco": "R$ 150,00",
+            "idiomas": "Português e Japonês",
+            "autor": "Kugane Maruyama",
+            "nota": "✭✭✭✭☆",
+            "imagem": "overlord.jpg"
+        },
+        {
+            "Id": "22",
+            "nome": "Konosuba: God's Blessing on This Wonderful World! Volume 1",
+            "preco": "R$ 115,00",
+            "idiomas": "Português e Japonês",
+            "autor": "Natsume Akatsuki",
+            "nota": "✭✭✭✭☆",
+            "imagem": "konosuba.jpg"
+        },
+        {
+            "Id": "23",
+            "nome": "Danmachi: Is It Wrong to Try to Pick Up Girls in a Dungeon? Volume 1",
+            "preco": "R$ 125,00",
+            "idiomas": "Português e Japonês",
+            "autor": "Fujino Omori",
+            "nota": "✭✭✭✭☆",
+            "imagem": "danmachi.jpg"
+        },
+        {
+            "Id": "24",
+            "nome": "The Eminence in Shadow Volume 1",
+            "preco": "R$ 140,00",
+            "idiomas": "Inglês e Japonês",
+            "autor": "Daisuke Aizawa",
+            "nota": "✭✭✭✭✭",
+            "imagem": "eminenceShadow.jpg"
+        },
+        {
+            "Id": "25",
+            "nome": "The Devil Is a Part-Timer Volume 1",
+            "preco": "R$ 130,00",
+            "idiomas": "Inglês e Japonês",
+            "autor": "Satoshi Wagahara",
+            "nota": "✭✭✭✭☆",
+            "imagem": "maouMcDonalds.jpg"
+        },
+        {
+            "Id": "26",
+            "nome": "The Irregular at Magic High School Volume 1",
+            "preco": "R$ 145,00",
+            "idiomas": "Inglês e Japonês",
+            "autor": "Tsutomu Satou",
+            "nota": "✭✭✭✭☆",
+            "imagem": "mahouka.jpg"
+        },
+        {
+            "Id": "27",
+            "nome": "The Apothecary Diaries: Volume 3",
+            "preco": "R$ 130,00",
+            "idiomas": "Inglês e Japonês",
+            "autor": "Natsu Hyuuga",
+            "nota": "✭✭✭✭☆",
+            "imagem": "diarioDeUmaApotecaria.jpg"
+        },
+        {
+            "Id": "28",
+            "nome": "Heaven Official's Blessing: Tian Guan CI Fu Volume 1",
+            "preco": "R$ 155,00",
+            "idiomas": "Inglês e Chinês",
+            "autor": "Mo Xiang Tong Xiu",
+            "nota": "✭✭✭✭✭",
+            "imagem": "tianGuanCiFu.jpg"
+        },
+        {
+            "Id": "29",
+            "nome": "Why Raeliana Ended Up at the Duke's Mansion Volume 1",
+            "preco": "R$ 120,00",
+            "idiomas": "Inglês e Coreano",
+            "autor": "Milcha",
+            "nota": "✭✭✭✭☆",
+            "imagem": "dukeMansion.jpg"
+        },
+        {
+            "Id": "30",
+            "nome": "Spice & Wolf Volume 1",
+            "preco": "R$ 145,00",
+            "idiomas": "Inglês e Japonês",
+            "autor": "Isuna Hasekura",
+            "nota": "✭✭✭✭✭",
+            "imagem": "spiceAndWolf.jpg"
+        }
+    ]
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        main {
+            height: 71.8vh;
+        }
+        .ladoALado{
+            padding: 5%;
+        }
+        @media only screen and (max-width: 1839px){
+            main{
+                height: auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="logo.png">
+        <nav>            <button onclick="window.location.reload();" id="toggle-dark-mode"></button>  
+            <a href="index.html" id="home">
+                <div class="navCaixa">
+                    <h3> HOME <h3>
+                </div>
+            </a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="ladoALado">
+
+            <!-- <div class="metade"> -->
+            <div id="logo">
+                <img src="logo.png" alt="" id="img">
+                <p>Quer saber mais sobre nossa empresa? <br><a href="sobreNos.html">Clique aqui</a> para ver</p>
+            </div>
+           <!-- </div> -->
+            <form>
+                <fieldset id="entrar">
+                    <form action="" class="" id="loginForm">
+                        <h1>FAÇA O LOGIN</h1>
+                        <hr><br>
+                        <input type="text" id="verificarEmail" placeholder="E-mail" required><br><br>
+                        <input type="password" id="verificarSenha" placeholder="Senha" required><br><br>
+                        <button id="verificarBtn"> Enviar </button>
+                        <br>
+                        <h6> NÃO POSSUI UM CADASTRO? <br><a href="cadastro.html">clique aqui</a></h6>
+                    </form>
+                </fieldset>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div>
+                <h3 id="redesSociais"> Redes Sociais </h3>
+                <div class="redesSociais">
+                    <img src="Instagram_icon.png.webp" alt="" id="instagram">
+                    <img src="facebook-logo-facebook-icon-transparent-free-png.webp" alt="" id="facebook">
+                    <img src="linkedin.png" alt="" id="linkedin">
+                </div>
+            </div>
+            <div class="contato">                <h3> Contato </h3>
+                <p id="contato"> (+55) 1234-5678</p>
+            </div>
+            <div class="gitHub">
+                <a href="https://github.com/caio987" target="_blank"><img src="gitHub.png" alt=""></a>
+                <h3> GitHub</h3>
+            </div>
+            <div class="sobreNos">
+                <a href="sobreNos.html" id="sobreNos">
+                    <h3> Sobre nós </h3>
+                </a>
+            </div>
+        </div>
+        <hr>
+        <h2>Todos os direitos reservados a Caio André</h2>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
